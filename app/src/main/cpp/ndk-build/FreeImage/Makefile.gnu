@@ -23,7 +23,7 @@ CFLAGS += -DNO_LCMS
 # LibJXR
 CFLAGS += -DDISABLE_PERF_MEASUREMENT -D__ANSI__
 CFLAGS += $(INCLUDE)
-CXXFLAGS ?= -O3 -fPIC -fexceptions -fvisibility=hidden -Wno-ctor-dtor-privacy
+CXXFLAGS ?= -std=c++14 -O3 -fPIC -fexceptions -fvisibility=hidden -Wno-ctor-dtor-privacy
 # LibJXR
 CXXFLAGS += -D__ANSI__
 CXXFLAGS += $(INCLUDE)
@@ -39,7 +39,6 @@ SHAREDLIB = lib$(TARGET)-$(VER_MAJOR).$(VER_MINOR).so
 LIBNAME	= lib$(TARGET).so
 VERLIBNAME = $(LIBNAME).$(VER_MAJOR)
 HEADER = Source/FreeImage.h
-
 
 
 default: all
@@ -63,8 +62,9 @@ FreeImage: $(STATICLIB) $(SHAREDLIB)
 .cpp.o:
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
+
 $(STATICLIB): $(MODULES)
-	$(AR) r $@ $(MODULES)
+	$(AR) rcs $@ $(MODULES)
 
 $(SHAREDLIB): $(MODULES)
 	$(CC) -s -shared -Wl,-soname,$(VERLIBNAME) $(LDFLAGS) -o $@ $(MODULES) $(LIBRARIES)
