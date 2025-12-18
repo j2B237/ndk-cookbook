@@ -1,3 +1,4 @@
 *.o
 *.vscode-*
-
+*.cxx
+app/build
