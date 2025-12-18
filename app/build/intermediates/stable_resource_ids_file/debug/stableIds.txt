@@ -1,0 +1,2 @@
+com.example.myndkapp:layout/activity_main = 0x7f020000
+com.example.myndkapp:id/textView = 0x7f010000

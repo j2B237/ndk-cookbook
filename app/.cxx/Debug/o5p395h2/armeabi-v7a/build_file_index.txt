@@ -1,0 +1,1 @@
+/home/astmin/Documents/Android/03_NDKApp/app/src/main/cpp/CMakeLists.txt

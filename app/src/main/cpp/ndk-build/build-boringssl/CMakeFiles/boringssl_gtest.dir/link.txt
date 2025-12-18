@@ -1,0 +1,2 @@
+/home/astmin/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc libboringssl_gtest.a "CMakeFiles/boringssl_gtest.dir/third_party/googletest/googlemock/src/gmock-all.cc.o" "CMakeFiles/boringssl_gtest.dir/third_party/googletest/googletest/src/gtest-all.cc.o"
+/home/astmin/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib libboringssl_gtest.a

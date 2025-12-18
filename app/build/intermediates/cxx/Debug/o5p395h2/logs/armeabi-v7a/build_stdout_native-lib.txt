@@ -1,0 +1,1 @@
+ninja: Entering directory `/home/astmin/Documents/Android/03_NDKApp/app/.cxx/Debug/o5p395h2/armeabi-v7a'

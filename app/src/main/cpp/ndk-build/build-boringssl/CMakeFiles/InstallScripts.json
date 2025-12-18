@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/build-boringssl/cmake_install.cmake",
+		"/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/build-boringssl/third_party/benchmark/cmake_install.cmake",
+		"/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/build-boringssl/third_party/benchmark/src/cmake_install.cmake",
+		"/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/build-boringssl/ssl/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

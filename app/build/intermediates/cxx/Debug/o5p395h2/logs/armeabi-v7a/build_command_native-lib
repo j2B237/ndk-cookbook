@@ -1,0 +1,4 @@
+/home/astmin/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /home/astmin/Documents/Android/03_NDKApp/app/.cxx/Debug/o5p395h2/armeabi-v7a \
+  native-lib

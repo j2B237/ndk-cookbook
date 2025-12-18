@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/astmin/Documents/Android/03_NDKApp/app/.cxx/Debug/o5p395h2/armeabi-v7a",
+  "command": "/home/astmin/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/astmin/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/astmin/Documents/Android/03_NDKApp/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -O2 -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /home/astmin/Documents/Android/03_NDKApp/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/astmin/Documents/Android/03_NDKApp/app/src/main/cpp/native-lib.cpp"
+}
+]

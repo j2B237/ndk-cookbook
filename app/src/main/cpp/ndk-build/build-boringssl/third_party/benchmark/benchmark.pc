@@ -1,0 +1,12 @@
+prefix=/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/boringssl/install
+exec_prefix=${prefix}
+libdir=/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/boringssl/install/lib
+includedir=/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/boringssl/install/include
+
+Name: benchmark
+Description: Google microbenchmark framework
+Version: 1.9.4
+
+Libs: -L${libdir} -lbenchmark
+Libs.private: -lpthread 
+Cflags: -I${includedir}

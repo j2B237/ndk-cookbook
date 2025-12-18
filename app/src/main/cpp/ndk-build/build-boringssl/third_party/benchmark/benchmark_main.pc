@@ -1,0 +1,7 @@
+libdir=/home/astmin/Documents/Android/04_NDKApp/app/src/main/cpp/ndk-build/boringssl/install/lib
+
+Name: benchmark
+Description: Google microbenchmark framework (with main() function)
+Version: 1.9.4
+Requires: benchmark
+Libs: -L${libdir} -lbenchmark_main

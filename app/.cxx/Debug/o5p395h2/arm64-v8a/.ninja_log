@@ -1,0 +1,4 @@
+# ninja log v5
+7108	9384	1765989395214868208	/home/astmin/Documents/Android/03_NDKApp/app/build/intermediates/cxx/Debug/o5p395h2/obj/arm64-v8a/libnative-lib.so	2806e17cc7811b84
+248	7108	1765989392774861248	CMakeFiles/native-lib.dir/native-lib.cpp.o	14642bac615269b8
+30	1805	1765989975001722466	/home/astmin/Documents/Android/03_NDKApp/app/build/intermediates/cxx/Debug/o5p395h2/obj/arm64-v8a/libnative-lib.so	55b90ec71e3a8985
