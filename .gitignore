@@ -1,4 +1,21 @@
+# Fichiers objets C/C++
 *.o
-*.vscode-*
-app/.cxx
-app/build
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Android / Gradle
+app/.cxx/
+app/build/
+.gradle/
+build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Logs
+*.log
+
